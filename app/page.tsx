@@ -170,15 +170,12 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Removed "Every Sunday" section */}
-
-          {/* Luma Embed - increased height to fill space */}
           <div className="w-full flex justify-center my-6">
             <div className="w-full">
               <iframe
-                src="https://lu.ma/embed/event/evt-hZVTNflJ6GZAcBR/simple"
+                src="https://luma.com/embed/calendar/cal-Xtd3aTHiMpcX3vF/events"
                 width="100%"
-                height="380"
+                height="450"
                 frameBorder="0"
                 style={{ border: "1px solid #bfcbda88", borderRadius: "4px" }}
                 allowFullScreen
@@ -188,6 +185,9 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        {/* Divider */}
+        <div className="border-t border-[#F9C06A]/30 my-6"></div>
 
         {/* Footer with social icons added */}
         <footer className="text-center text-black py-6 border-t border-[#F9C06A]/30 mt-6">

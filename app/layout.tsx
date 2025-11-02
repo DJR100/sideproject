@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   icons: {
     icon: [{ url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" }],
   },
-    generator: 'v0.dev'
+    generator: 'v0.app'
 }
 
 export default function RootLayout({
