@@ -189,6 +189,33 @@ export default function Home() {
         {/* Divider */}
         <div className="border-t border-[#F9C06A]/30 my-6"></div>
 
+        {/* What are you Building? */}
+        <div className="mb-8">
+          {/* What are you Building? heading with label maker style */}
+          <div className="flex justify-center mb-4">
+            <div className="bg-black px-3 py-1.5 label-tape">
+              <h2 className="font-mono tracking-widest text-white text-xl uppercase label-text">
+                What are you Building?
+              </h2>
+            </div>
+          </div>
+
+          <div className="w-full flex justify-center my-6">
+            <div className="w-full">
+              <iframe
+                style={{ border: "1px solid rgba(0, 0, 0, 0.1)", borderRadius: "4px" }}
+                width="100%"
+                height="450"
+                src="https://embed.figma.com/board/JB7LMiGxHEm7Z340eMEKih/Side-project-Saturdays?node-id=0-1&embed-host=share"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+
+        {/* Divider */}
+        <div className="border-t border-[#F9C06A]/30 my-6"></div>
+
         {/* Footer with social icons added */}
         <footer className="text-center text-black py-6 border-t border-[#F9C06A]/30 mt-6">
           <p className="mb-2">Side Project © 2025</p>
